@@ -2,24 +2,29 @@ import logo from './logo.png';
 import './App.css';
 
 function App() {
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
+  return (<>
+        <header>
+        <h1>amazon</h1>
+        <input type="text" class = "nav-search-input" placeholder="¿Qué estás buscando hoy?"></input>
+    </header>
+    <div class="nav-header-plus-menu-wrapper">
+        <nav class="navbar">
+        <ul>
+            <li><a href="#">Los más vendidos</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="pagos.html">pagos</a></li>
+        </ul>
+    </nav>
+        <nav class="nav-header-menu">
+            <ul class = "nav-header-menu-list">
+                <li>Crear cuenta</li>
+                <li>Login</li>
+            </ul>
+        </nav>
+    </div>
+  </>
+
+  );
 }
 
 export default App;
