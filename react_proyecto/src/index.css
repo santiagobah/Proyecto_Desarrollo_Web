@@ -1,0 +1,60 @@
+body {
+  font-family: Comic sans-serif,;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #333;
+}
+
+navbar {
+    background-color: #da9628;
+    position: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #c76727;
+}
+
+header {
+    background-color: #00df7e;
+    color: white;
+    text-align: center;
+}
+
+.nav-header-plus-menu-wrapper {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+/* para que los elementos de crear cuenta y login aparezca uno al lado del tro y no en viñetas */
+.nav-header-menu-list {
+  list-style: none; 
+  margin: 0;       
+  padding: 0;            
+  display: flex;          
+  justify-content: flex-end;
+}
+
+.nav-header-menu-list li {
+  margin-left: 20px;
+}
